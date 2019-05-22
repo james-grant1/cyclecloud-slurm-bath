@@ -1,0 +1,8 @@
+cyclecloud locker list
+#Must have access to storage, set up with MS Azure storage explorer
+pogo ls -lR az://cycleclouddevdiag/cyclecloud
+# install git
+git clone https://github.com/Azure/cyclecloud-slurm.git
+# template file:
+cat templates/slurm.txt
+cat project.ini
